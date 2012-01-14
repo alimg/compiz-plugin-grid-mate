@@ -1,4 +1,0 @@
-/home/alim/.compiz-1/metadata/mategrid.xml
-/home/alim/.gconf/schemas/compiz-mategrid.schemas
-/home/alim/.config/compiz-1/gsettings/schemas/org.freedesktop.compiz.mategrid.gschema.xml
-/home/alim/.compiz-1/plugins/libmategrid.so
