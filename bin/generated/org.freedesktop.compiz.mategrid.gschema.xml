@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<schemalist>
+  <schema id="org.freedesktop.compiz.mategrid" gettext-domain="compiz">
+    <key type="s" name="put-center-key">
+      <default>'&lt;Control&gt;&lt;Alt&gt;KP_5'</default>
+      <summary>Put Center</summary>
+      <description>Move window to the center</description>
+    </key>
+    <key type="s" name="put-left-key">
+      <default>'&lt;Control&gt;&lt;Alt&gt;KP_4'</default>
+      <summary>Put Left</summary>
+      <description>Move window to the left edge</description>
+    </key>
+    <key type="s" name="put-right-key">
+      <default>'&lt;Control&gt;&lt;Alt&gt;KP_6'</default>
+      <summary>Put Right</summary>
+      <description>Move window to the right edge</description>
+    </key>
+    <key type="s" name="put-top-key">
+      <default>'&lt;Control&gt;&lt;Alt&gt;KP_8'</default>
+      <summary>Put Top</summary>
+      <description>Move window to the top edge</description>
+    </key>
+    <key type="s" name="put-bottom-key">
+      <default>'&lt;Control&gt;&lt;Alt&gt;KP_2'</default>
+      <summary>Put Bottom</summary>
+      <description>Move window to the bottom edge</description>
+    </key>
+    <key type="s" name="put-topleft-key">
+      <default>'&lt;Control&gt;&lt;Alt&gt;KP_7'</default>
+      <summary>Put Top Left</summary>
+      <description>Move window to the top left corner</description>
+    </key>
+    <key type="s" name="put-topright-key">
+      <default>'&lt;Control&gt;&lt;Alt&gt;KP_9'</default>
+      <summary>Put Top Right</summary>
+      <description>Move window to the top right corner</description>
+    </key>
+    <key type="s" name="put-bottomleft-key">
+      <default>'&lt;Control&gt;&lt;Alt&gt;KP_1'</default>
+      <summary>Put Bottom Left</summary>
+      <description>Move window to the bottom left corner</description>
+    </key>
+    <key type="s" name="put-bottomright-key">
+      <default>'&lt;Control&gt;&lt;Alt&gt;KP_3'</default>
+      <summary>Put Bottom Right</summary>
+      <description>Move window to the bottom right corner</description>
+    </key>
+    <key type="s" name="put-maximize-key">
+      <default>'&lt;Control&gt;&lt;Alt&gt;KP_0'</default>
+      <summary>Maximize</summary>
+      <description>Maximize window</description>
+    </key>
+    <key type="s" name="put-restore-key">
+      <default>'&lt;Control&gt;&lt;Alt&gt;r'</default>
+      <summary>Restore</summary>
+      <description>Restore window to it's original size</description>
+    </key>
+    <key type="i" name="top-left-corner-action">
+      <default>7</default>
+      <summary>Upper Left Corner</summary>
+      <description>Action to be performed when window is dropped on the top left corner (0 = None, 1 = Bottom Left Corner, 2 = Bottom Half, 3 = Bottom Right Corner, 4 = Left Half, 5 = Fill Screen, 6 = Right Half, 7 = Top Left Corner, 8 = Top Half, 9 = Top Right Corner, 10 = Maximize)</description>
+    </key>
+    <key type="i" name="top-edge-action">
+      <default>10</default>
+      <summary>Top Edge</summary>
+      <description>Action to be performed when window is dropped on the top edge (0 = None, 1 = Bottom Left Corner, 2 = Bottom Half, 3 = Bottom Right Corner, 4 = Left Half, 5 = Fill Screen, 6 = Right Half, 7 = Top Left Corner, 8 = Top Half, 9 = Top Right Corner, 10 = Maximize)</description>
+    </key>
+    <key type="i" name="top-right-corner-action">
+      <default>9</default>
+      <summary>Upper Right Corner</summary>
+      <description>Action to be performed when window is dropped on the top right corner (0 = None, 1 = Bottom Left Corner, 2 = Bottom Half, 3 = Bottom Right Corner, 4 = Left Half, 5 = Fill Screen, 6 = Right Half, 7 = Top Left Corner, 8 = Top Half, 9 = Top Right Corner, 10 = Maximize)</description>
+    </key>
+    <key type="i" name="left-edge-action">
+      <default>4</default>
+      <summary>Left Edge</summary>
+      <description>Action to be performed when window is dropped on the left edge (0 = None, 1 = Bottom Left Corner, 2 = Bottom Half, 3 = Bottom Right Corner, 4 = Left Half, 5 = Fill Screen, 6 = Right Half, 7 = Top Left Corner, 8 = Top Half, 9 = Top Right Corner, 10 = Maximize)</description>
+    </key>
+    <key type="i" name="right-edge-action">
+      <default>6</default>
+      <summary>Right Edge</summary>
+      <description>Action to be performed when window is dropped on the right edge (0 = None, 1 = Bottom Left Corner, 2 = Bottom Half, 3 = Bottom Right Corner, 4 = Left Half, 5 = Fill Screen, 6 = Right Half, 7 = Top Left Corner, 8 = Top Half, 9 = Top Right Corner, 10 = Maximize)</description>
+    </key>
+    <key type="i" name="bottom-left-corner-action">
+      <default>1</default>
+      <summary>Bottom Left Corner</summary>
+      <description>Action to be performed when window is dropped on the bottom left corner (0 = None, 1 = Bottom Left Corner, 2 = Bottom Half, 3 = Bottom Right Corner, 4 = Left Half, 5 = Fill Screen, 6 = Right Half, 7 = Top Left Corner, 8 = Top Half, 9 = Top Right Corner, 10 = Maximize)</description>
+    </key>
+    <key type="i" name="bottom-edge-action">
+      <default>2</default>
+      <summary>Bottom Edge</summary>
+      <description>Action to be performed when window is dropped on the bottom edge (0 = None, 1 = Bottom Left Corner, 2 = Bottom Half, 3 = Bottom Right Corner, 4 = Left Half, 5 = Fill Screen, 6 = Right Half, 7 = Top Left Corner, 8 = Top Half, 9 = Top Right Corner, 10 = Maximize)</description>
+    </key>
+    <key type="i" name="bottom-right-corner-action">
+      <default>3</default>
+      <summary>Bottom Right Corner</summary>
+      <description>Action to be performed when window is dropped on the bottom right corner (0 = None, 1 = Bottom Left Corner, 2 = Bottom Half, 3 = Bottom Right Corner, 4 = Left Half, 5 = Fill Screen, 6 = Right Half, 7 = Top Left Corner, 8 = Top Half, 9 = Top Right Corner, 10 = Maximize)</description>
+    </key>
+    <key type="b" name="snapoff-maximized">
+      <default>false</default>
+      <summary>Snapoff maximized windows</summary>
+      <description>Snapoff maximized windows when pulling to edge.</description>
+    </key>
+    <key type="b" name="snapback-windows">
+      <default>true</default>
+      <summary>Snap windows back to original size</summary>
+      <description>Snaps windows back to their original size if dragged away from their gridded position.</description>
+    </key>
+    <key type="i" name="left-edge-threshold">
+      <default>5</default>
+      <summary>Left Edge</summary>
+      <description>Maximum number of pixels from the left edge a window can be dropped (0 - 500)</description>
+    </key>
+    <key type="i" name="right-edge-threshold">
+      <default>5</default>
+      <summary>Right Edge</summary>
+      <description>Maximum number of pixels from the right edge a window can be dropped (0 - 500)</description>
+    </key>
+    <key type="i" name="top-edge-threshold">
+      <default>5</default>
+      <summary>Top Edge</summary>
+      <description>Maximum number of pixels from the top edge a window can be dropped (0 - 500)</description>
+    </key>
+    <key type="i" name="bottom-edge-threshold">
+      <default>5</default>
+      <summary>Bottom Edge</summary>
+      <description>Maximum number of pixels from the Bottom edge a window can be dropped (0 - 500)</description>
+    </key>
+    <key type="b" name="draw-indicator">
+      <default>true</default>
+      <summary>Draw Indicator</summary>
+      <description>Draw Window Resize Indicator</description>
+    </key>
+    <key type="s" name="outline-color">
+      <default>'#2f2f4f9f'</default>
+      <summary>Outline Color</summary>
+      <description>Color of the resize indicator outline</description>
+    </key>
+    <key type="s" name="fill-color">
+      <default>'#2f2f4f4f'</default>
+      <summary>Fill Color</summary>
+      <description>Fill color of the resize indicator</description>
+    </key>
+    <key type="i" name="indicator-direction">
+      <default>0</default>
+      <summary>Indicator direction</summary>
+      <description>Where the indicator should come from on-screen (0 = From Window, 1 = From Edge)</description>
+    </key>
+    <key type="i" name="indicator-type">
+      <default>0</default>
+      <summary>Indicator type</summary>
+      <description>Appearance of the indicator (0 = Outline)</description>
+    </key>
+    <key type="b" name="behind-window">
+      <default>true</default>
+      <summary>Behind window</summary>
+      <description>Draw indicator behind window</description>
+    </key>
+  </schema>
+</schemalist>

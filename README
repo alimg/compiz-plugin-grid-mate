@@ -5,8 +5,8 @@ This plugin enables Win7 Aerosnap like desktop grid in MATE and
 does not replace with standart grid plugin.
 
 Installation
-    First you need to install development libraries needed for
-compiz plugind development. Then you can compile and install plugin
+    First, you need to install development libraries needed for
+compiz plugind development. Then, you can compile and install plugin
 using these commands:
 
 $ cd mategrid;mkdir bin; cd bin
